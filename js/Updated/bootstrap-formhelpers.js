@@ -18013,10 +18013,8 @@ var BFHCountriesList = {
 		this
 	},
 	a(document).ready(function () {
-		console.log('Countries');
 		a("form select.bfh-countries, span.bfh-countries, div.bfh-countries").each(function () {
 			var b;
-			console.log('Found a country');
 			b = a(this),
 			b.hasClass("bfh-selectbox") && b.bfhselectbox(b.data()),
 			b.bfhcountries(b.data())
@@ -18139,10 +18137,7 @@ var BFHCountriesList = {
 		this
 	},
 	a(document).ready(function () {
-		console.log('States');
-		console.log(a("select.bfh-states, span.bfh-states, div.bfh-states"));
 		a("form select.bfh-states, span.bfh-states, div.bfh-states").each(function () {
-			console.log('Found a state');
 			var b;
 			b = a(this),
 			b.hasClass("bfh-selectbox") && b.bfhselectbox(b.data()),

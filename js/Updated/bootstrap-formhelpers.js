@@ -18140,6 +18140,7 @@ var BFHCountriesList = {
 	},
 	a(document).ready(function () {
 		console.log('States');
+		console.log(a("form select.bfh-states, span.bfh-states, div.bfh-states"));
 		a("form select.bfh-states, span.bfh-states, div.bfh-states").each(function () {
 			console.log('Found a state');
 			var b;
